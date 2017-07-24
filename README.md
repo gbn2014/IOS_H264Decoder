@@ -1,3 +1,4 @@
+﻿
 # iOS-H.264-hareware-encode-and-decode
 使用 Video Toolbox 进行H.264编码
 
@@ -10,6 +11,8 @@
 3、点击play按钮播放录像（从沙盒中读取test.h264文件并解码播放）
 
 4、点击stop停止播放、清除播放对象
+
+5、点击socket开始连接websocket拉取视频源文件，解析源文件并解码，然后渲染
 
 沙盒中的test.h264文件可以通过设备连接电脑后打开iTunes，选定自己的设备，在文件共享那里可以找到第一步保存的test.h264源码文件
 
