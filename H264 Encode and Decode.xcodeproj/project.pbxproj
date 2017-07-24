@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12E12A701F2597CA001EDDA7 /* SocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E12A6F1F2597CA001EDDA7 /* SocketViewController.m */; };
+		25BAEF651CDC444200D43A42 /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF621CDC444200D43A42 /* AAPLEAGLLayer.m */; };
+		25BAEF661CDC444200D43A42 /* VideoFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF641CDC444200D43A42 /* VideoFileParser.m */; };
+		25BAEF741CDC446E00D43A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEF701CDC446E00D43A42 /* LaunchScreen.storyboard */; };
+		25BAEF751CDC446E00D43A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEF721CDC446E00D43A42 /* Main.storyboard */; };
+		25BAEF781CDC448200D43A42 /* H264HwEncoderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF771CDC448200D43A42 /* H264HwEncoderImpl.m */; };
+		25BAEF7F1CDC449300D43A42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7A1CDC449300D43A42 /* AppDelegate.m */; };
+		25BAEF801CDC449300D43A42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEF7B1CDC449300D43A42 /* Info.plist */; };
+		25BAEF811CDC449300D43A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7C1CDC449300D43A42 /* main.m */; };
+		25BAEF821CDC449300D43A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7E1CDC449300D43A42 /* ViewController.m */; };
+		D304EEF5422E78E9907AA453 /* libPods-H264 Encode and Decode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AE8AED8463C801F6C9C613 /* libPods-H264 Encode and Decode.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11AE8AED8463C801F6C9C613 /* libPods-H264 Encode and Decode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-H264 Encode and Decode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E12A6E1F2597CA001EDDA7 /* SocketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketViewController.h; sourceTree = "<group>"; };
+		12E12A6F1F2597CA001EDDA7 /* SocketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketViewController.m; sourceTree = "<group>"; };
+		2572B9161CCF3A620062BD02 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2575C6111CCE03EF00160B73 /* H264 Encode and Decode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H264 Encode and Decode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BAEF611CDC444200D43A42 /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
+		25BAEF621CDC444200D43A42 /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
+		25BAEF631CDC444200D43A42 /* VideoFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoFileParser.h; sourceTree = "<group>"; };
+		25BAEF641CDC444200D43A42 /* VideoFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoFileParser.m; sourceTree = "<group>"; };
+		25BAEF711CDC446E00D43A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25BAEF731CDC446E00D43A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25BAEF761CDC448200D43A42 /* H264HwEncoderImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = H264HwEncoderImpl.h; sourceTree = "<group>"; };
+		25BAEF771CDC448200D43A42 /* H264HwEncoderImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = H264HwEncoderImpl.m; sourceTree = "<group>"; };
+		25BAEF791CDC449300D43A42 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25BAEF7A1CDC449300D43A42 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25BAEF7B1CDC449300D43A42 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BAEF7C1CDC449300D43A42 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25BAEF7D1CDC449300D43A42 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25BAEF7E1CDC449300D43A42 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9133979B3F440A11D4DB3AAE /* Pods-H264 Encode and Decode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H264 Encode and Decode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-H264 Encode and Decode/Pods-H264 Encode and Decode.debug.xcconfig"; sourceTree = "<group>"; };
+		F6FF2C33748F862A185476AA /* Pods-H264 Encode and Decode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-H264 Encode and Decode.release.xcconfig"; path = "Pods/Target Support Files/Pods-H264 Encode and Decode/Pods-H264 Encode and Decode.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2575C60E1CCE03EF00160B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D304EEF5422E78E9907AA453 /* libPods-H264 Encode and Decode.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2547F8D11CDC40E100C7DD90 /* Encode */ = {
+			isa = PBXGroup;
+			children = (
+				25BAEF761CDC448200D43A42 /* H264HwEncoderImpl.h */,
+				25BAEF771CDC448200D43A42 /* H264HwEncoderImpl.m */,
+			);
+			name = Encode;
+			sourceTree = "<group>";
+		};
+		2547F8D21CDC410200C7DD90 /* Decode */ = {
+			isa = PBXGroup;
+			children = (
+				25BAEF611CDC444200D43A42 /* AAPLEAGLLayer.h */,
+				25BAEF621CDC444200D43A42 /* AAPLEAGLLayer.m */,
+				25BAEF631CDC444200D43A42 /* VideoFileParser.h */,
+				25BAEF641CDC444200D43A42 /* VideoFileParser.m */,
+			);
+			name = Decode;
+			sourceTree = "<group>";
+		};
+		2575C6081CCE03EF00160B73 = {
+			isa = PBXGroup;
+			children = (
+				2572B9161CCF3A620062BD02 /* MediaPlayer.framework */,
+				2575C6131CCE03EF00160B73 /* VTDemoOniPad */,
+				2575C6121CCE03EF00160B73 /* Products */,
+				9092C27CC09E9E682C210A7B /* Pods */,
+				F0A5AEF482F38568530DB9B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2575C6121CCE03EF00160B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2575C6111CCE03EF00160B73 /* H264 Encode and Decode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2575C6131CCE03EF00160B73 /* VTDemoOniPad */ = {
+			isa = PBXGroup;
+			children = (
+				2575C6141CCE03EF00160B73 /* Supporting Files */,
+				25BAEF701CDC446E00D43A42 /* LaunchScreen.storyboard */,
+				25BAEF721CDC446E00D43A42 /* Main.storyboard */,
+				2547F8D21CDC410200C7DD90 /* Decode */,
+				2547F8D11CDC40E100C7DD90 /* Encode */,
+			);
+			path = VTDemoOniPad;
+			sourceTree = "<group>";
+		};
+		2575C6141CCE03EF00160B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12E12A6E1F2597CA001EDDA7 /* SocketViewController.h */,
+				12E12A6F1F2597CA001EDDA7 /* SocketViewController.m */,
+				25BAEF791CDC449300D43A42 /* AppDelegate.h */,
+				25BAEF7A1CDC449300D43A42 /* AppDelegate.m */,
+				25BAEF7B1CDC449300D43A42 /* Info.plist */,
+				25BAEF7C1CDC449300D43A42 /* main.m */,
+				25BAEF7D1CDC449300D43A42 /* ViewController.h */,
+				25BAEF7E1CDC449300D43A42 /* ViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9092C27CC09E9E682C210A7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9133979B3F440A11D4DB3AAE /* Pods-H264 Encode and Decode.debug.xcconfig */,
+				F6FF2C33748F862A185476AA /* Pods-H264 Encode and Decode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0A5AEF482F38568530DB9B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11AE8AED8463C801F6C9C613 /* libPods-H264 Encode and Decode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2575C6101CCE03EF00160B73 /* H264 Encode and Decode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2575C6281CCE03EF00160B73 /* Build configuration list for PBXNativeTarget "H264 Encode and Decode" */;
+			buildPhases = (
+				E7CD2CB629AA3F9135439FDE /* [CP] Check Pods Manifest.lock */,
+				2575C60D1CCE03EF00160B73 /* Sources */,
+				2575C60E1CCE03EF00160B73 /* Frameworks */,
+				2575C60F1CCE03EF00160B73 /* Resources */,
+				AEDFC45768DE672718BF45CD /* [CP] Embed Pods Frameworks */,
+				262553C7368CC1DF68022F75 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H264 Encode and Decode";
+			productName = VTDemoOniPad;
+			productReference = 2575C6111CCE03EF00160B73 /* H264 Encode and Decode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2575C6091CCE03EF00160B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AJB;
+				TargetAttributes = {
+					2575C6101CCE03EF00160B73 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H7J65BU3S2;
+					};
+				};
+			};
+			buildConfigurationList = 2575C60C1CCE03EF00160B73 /* Build configuration list for PBXProject "H264 Encode and Decode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2575C6081CCE03EF00160B73;
+			productRefGroup = 2575C6121CCE03EF00160B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2575C6101CCE03EF00160B73 /* H264 Encode and Decode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2575C60F1CCE03EF00160B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BAEF741CDC446E00D43A42 /* LaunchScreen.storyboard in Resources */,
+				25BAEF751CDC446E00D43A42 /* Main.storyboard in Resources */,
+				25BAEF801CDC449300D43A42 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		262553C7368CC1DF68022F75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-H264 Encode and Decode/Pods-H264 Encode and Decode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEDFC45768DE672718BF45CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-H264 Encode and Decode/Pods-H264 Encode and Decode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7CD2CB629AA3F9135439FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2575C60D1CCE03EF00160B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BAEF821CDC449300D43A42 /* ViewController.m in Sources */,
+				25BAEF811CDC449300D43A42 /* main.m in Sources */,
+				12E12A701F2597CA001EDDA7 /* SocketViewController.m in Sources */,
+				25BAEF7F1CDC449300D43A42 /* AppDelegate.m in Sources */,
+				25BAEF651CDC444200D43A42 /* AAPLEAGLLayer.m in Sources */,
+				25BAEF661CDC444200D43A42 /* VideoFileParser.m in Sources */,
+				25BAEF781CDC448200D43A42 /* H264HwEncoderImpl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25BAEF701CDC446E00D43A42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BAEF711CDC446E00D43A42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		25BAEF721CDC446E00D43A42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BAEF731CDC446E00D43A42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2575C6261CCE03EF00160B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2575C6271CCE03EF00160B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2575C6291CCE03EF00160B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9133979B3F440A11D4DB3AAE /* Pods-H264 Encode and Decode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H7J65BU3S2;
+				INFOPLIST_FILE = VTDemoOniPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgbvr.show;
+				PRODUCT_NAME = "H264 Encode and Decode";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2575C62A1CCE03EF00160B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6FF2C33748F862A185476AA /* Pods-H264 Encode and Decode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H7J65BU3S2;
+				INFOPLIST_FILE = VTDemoOniPad/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rgbvr.show;
+				PRODUCT_NAME = "H264 Encode and Decode";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2575C60C1CCE03EF00160B73 /* Build configuration list for PBXProject "H264 Encode and Decode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2575C6261CCE03EF00160B73 /* Debug */,
+				2575C6271CCE03EF00160B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2575C6281CCE03EF00160B73 /* Build configuration list for PBXNativeTarget "H264 Encode and Decode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2575C6291CCE03EF00160B73 /* Debug */,
+				2575C62A1CCE03EF00160B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2575C6091CCE03EF00160B73 /* Project object */;
+}
